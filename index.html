@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Application to your spacetrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="https://i1.faceprep.in/ProGrad/space-man-1.png
+    " alt="Astronaut-1" id="astronaut1">
+    <img src="https://i1.faceprep.in/ProGrad/space-man-2.png" alt="Astronaut-2 " id="astronaut2">
+    <form action="">
+        <h1>Rocket around the moon with your BFF's</h1>
+        <label for="country" class="block-display">Departure Country</label>
+        <select name="countries" id="countries">
+            <option value="india">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="UAE">UAE</option>
+            <option value="australlia">Australlia</option>
+            <option value="canada">Canada</option>
+            <option value="germany">Germany</option>
+            <option value="switzerland">Swizterland</option>
+            <option value="france">France</option>
+            <option value="china">China</option>
+
+        </select>
+        <label for="travellers" class="block-display">No.of travellers boarding:</label>
+        <input type="number" name="travellers" id="travellers" min="1" max="40">
+        <label for="email" class="block-display">Your Email</label>
+        <input type="text" name="email" id="email" placeholder="ilovespace@gmail.com">
+        <label for="rent" class="block-display">Do you wanna rent a spacesuit?</label>
+        <input type="radio" id="yes" name="rent-button" value="yes">
+        <label for="yes" class="rent-label">Yes,please</label>
+        <input type="radio" id="no" name="rent-button" value="no">
+        <label for="no" class="rent-label">No, I own a spacesuit</label>
+        <input type="submit" id="button" value="TAKE US TO SPACE">
+
+    </form>
+
+</body>
+
+</html>
